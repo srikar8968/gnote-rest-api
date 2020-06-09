@@ -5,7 +5,10 @@ It is built with NodeJs(Express) & MongoDB where you can integrate with any plat
 ## Getting Started
 - Clone this repository to your local machine
 - Run `npm install`
-- Use your own db? Connect to MongoDB server in app.js ```javascript mongoose.connect('---server-code---', { useUnifiedTopology: true, useNewUrlParser: true });```
+- Use your own db? Connect to MongoDB server in app.js 
+```javascript
+mongoose.connect('---server-code---', { useUnifiedTopology: true, useNewUrlParser: true });
+```
 - If your using your own domain add your db password in nodemon.json env field
 - Rum `npm start` to start working with api.
 
